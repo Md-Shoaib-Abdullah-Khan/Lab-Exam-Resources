@@ -1,3 +1,8 @@
 matrix mul : https://colab.research.google.com/drive/1jD1eiOPCMZ05Y4Zqan5s_2huD-DB2Yiw?usp=sharing
 
 Phonebook search: https://colab.research.google.com/drive/1IFJesWvF5rZUuM4h4jLSFQdDCKL6jUcI?usp=sharing
+
+MPI run command linux:
+
+mpic++ -0 search phonebook_search.pp
+mpirun -np 1 ./search labtest_dataset1.txt SUNJIDA
